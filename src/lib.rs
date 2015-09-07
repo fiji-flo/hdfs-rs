@@ -12,15 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-//! hdfs-rs is a library for accessing to HDFS cluster. 
+//! hdfs-rs is a library for accessing to HDFS cluster.
 //! Basically, this library provides libhdfs APIs bindings.
-//! It also provides more idiomatic and abstract Rust APIs, 
+//! It also provides more idiomatic and abstract Rust APIs,
 //! hiding manual memory management and some thread-safety problem of libhdfs.
 //! Rust APIs are highly recommended for most users.
 
-#![feature(convert)]
-#![feature(core)]
-#![feature(libc)]
 extern crate libc;
 #[macro_use]
 extern crate log;
